@@ -32,7 +32,7 @@ http.createServer(function(request,response){
     }else { //不是静态文件执行此部分
         // console.log(111)
         if (pathname == "/api/chat"){
-                        console.log('发送请求')
+                        // console.log('发送请求')
             var params = url.parse(request.url,true).query;  //{ text: '***' }
             var data = {
                 "reqType": 0,
